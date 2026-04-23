@@ -9,7 +9,7 @@ int main()
 {
 float fahr, celsius;
 float lower, upper, step;
-lower = 300; upper = 0; step = -20; /* lower limit of temperatuire scale */
+lower = 300; upper = 0; step = 20; /* lower limit of temperatuire scale */
 /* upper limit */
 /* step size */
 fahr = lower;
