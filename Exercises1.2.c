@@ -10,3 +10,7 @@ printf("world");
 printf("\n");
 return 0;
 }
+/* Warning pops up as \c is an unknown escape sequence. 
+The output is "hello, c worldworld" 
+followed   by a newline.
+*/
