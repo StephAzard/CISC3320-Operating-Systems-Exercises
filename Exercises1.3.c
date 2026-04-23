@@ -4,7 +4,7 @@ Exercise 1-3. Modify the fahrenheit to celsius conversion program to print a hea
 #include <stdio.h>
 /* print Fahrenheit-Celsius table
 for fahr = 0, 20, ..., 300; floating-point version */
-main()
+int main()
 {
 float fahr, celsius;
 float lower, upper, step;
