@@ -25,3 +25,9 @@ state = IN;
 }
 printf("%d %d %d\n", nl, nw, nc);
 }
+/*
+When testing the count program, I test whitespace, zeros, and words with no new line
+at the end. I also test with a large input to see if it can handle it without crashing.
+The output should be correct for all of these cases, and if there are any bugs, 
+they are likely to be uncovered by these tests.
+*/
