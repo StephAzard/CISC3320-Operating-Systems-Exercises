@@ -13,7 +13,7 @@ floating-point types.
 #include <float.h>
 
 int main() {
-    printf("--- RANGES FROM STANDARD HEADERS ---\n");
+    printf(" Ranges from Standard Headers \n");
     
     printf("Ranges of char:\n");
     printf("Signed char: %d to %d\n", SCHAR_MIN, SCHAR_MAX);
