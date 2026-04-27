@@ -8,7 +8,7 @@ through 9, a through f, and A through F.
 
 int main() {
     char hexString[100];
-    printf("Enter a hexadecimal number: ");
+    printf("Enter a hexadecimal number : ");
     scanf("%s", hexString);
 
     int result = 0;
@@ -16,7 +16,6 @@ int main() {
     if (hexString[0] == '0' && (hexString[1] == 'x' || hexString[1] == 'X')) {
         i = 2;
     }
-
     for (; hexString[i] != '\0'; i++) {
         char c = hexString[i];
         if (isdigit(c)) {
@@ -28,7 +27,6 @@ int main() {
             return 1; 
         }
     }
-
     printf("The integer value is: %d\n", result);
     return 0;
 }
